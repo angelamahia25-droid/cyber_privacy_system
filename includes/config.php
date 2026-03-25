@@ -1,0 +1,3 @@
+<?php
+define('SYSTEM_REGISTRATION_KEY', 'SHIELD-2026');
+?>
