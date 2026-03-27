@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body class="bg-gray-900 text-white flex items-center justify-center h-screen">
     <div class="bg-gray-800 p-8 rounded-lg shadow-2xl w-96 border border-gray-700">
         <div class="text-center mb-8">
-            <h2 class="text-3xl font-bold text-cyan-400">ShieldScan</h2>
+            <h2 class="text-3xl font-bold text-cyan-400">dataguard</h2>
             <p class="text-gray-400 text-sm">Privacy Risk Control System</p>
         </div>
         
