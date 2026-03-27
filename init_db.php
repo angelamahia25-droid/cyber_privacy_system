@@ -15,9 +15,11 @@ try {
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         asset_name TEXT,
         data_type TEXT,
-        sensitivity TEXT, -- Low, Medium, High
-        is_encrypted INTEGER DEFAULT 0 -- 0=No, 1=Yes
+        sensitivity TEXT,
+        sample_data TEXT, -- <--- NEW COLUMN
+        is_encrypted INTEGER DEFAULT 0
     )");
+
 
     // 3. Risk Logs Table (For Scan Results)
     $db->exec("CREATE TABLE IF NOT EXISTS risk_logs (
